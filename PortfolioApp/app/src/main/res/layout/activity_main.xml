@@ -1,0 +1,104 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/holo_blue_light">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Nanodegree Portfolio"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/spotify"
+            android:text="Spotify Streamer"
+            android:textAllCaps="true"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:onClick="portfolio"
+            android:background="@android:color/holo_blue_dark"/>
+        <Button
+            android:id="@+id/scores"
+            android:text="Scores App"
+            android:textAllCaps="true"
+            android:layout_width="192dp"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:onClick="portfolio"
+            android:background="@android:color/holo_blue_dark"/>
+        <Button
+            android:id="@+id/library"
+            android:text="Library"
+            android:textAllCaps="true"
+            android:layout_width="192dp"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:onClick="portfolio"
+            android:background="@android:color/holo_blue_dark"/>
+        <Button
+            android:id="@+id/bib"
+            android:text="Build it bigger"
+            android:textAllCaps="true"
+            android:layout_width="192dp"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:onClick="portfolio"
+            android:background="@android:color/holo_blue_dark"/>
+        <Button
+            android:id="@+id/xyz"
+            android:text="xyz reader"
+            android:textAllCaps="true"
+            android:layout_width="192dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:onClick="portfolio"
+            android:background="@android:color/holo_blue_dark"/>
+        <Button
+            android:id="@+id/capstone"
+            android:text="Capstone my own app"
+            android:textAllCaps="true"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="8dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="portfolio"
+            android:background="@android:color/holo_orange_dark"/>
+
+</LinearLayout>
+</ScrollView>
