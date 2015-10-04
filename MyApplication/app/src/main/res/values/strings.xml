@@ -8,7 +8,7 @@
     <string name="pref_sort_label">Sort</string>
     <string name="pref_sort_label_popular">Popularity</string>
     <string name="pref_sort_label_ratings">Ratings</string>
-    <string name="APIKEY">"f38b1a07ccfc6e604a89bf88d7596032"</string>
+    <string name="APIKEY">"Insert your key here"</string>
     <string name="pref_sort_key" translatable="false">sort</string>
     <string name="pref_sort_popular" translatable="false">popularity.desc</string>
     <string name="pref_sort_ratings" translatable="false">vote_average.desc</string>
